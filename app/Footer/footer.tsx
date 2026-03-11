@@ -32,8 +32,8 @@ const Footer = () => {
         <div>
           <Logo className="!min-w-44 " />
           <p>
-            Zaaviyan is a premier UAE contracting and fit-out company,
-            redefining excellence in construction.
+            MZBC Technical Services is a premier UAE contracting and fit-out
+            company, redefining excellence in construction.
           </p>
         </div>
         <div></div>
@@ -60,16 +60,15 @@ const Footer = () => {
               <h3 className="text-xl text-slate-950 font-[600]">Address</h3>
               <ul className="mt-3">
                 <li>Phone - +971581115376</li>
-                <li>Email - info@zaaviyancontracting.com</li>
+                <li>Email - info@MZBC Technical Servicescontracting.com</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
       <div className="container text-center lg:text-start mt-10 lg:mt-8 flex lg:justify-start justify-center">
-        <p>&#169; {year} Zaaviyan Copyright Protected</p>
+        <p>&#169; {year} MZBC Technical Services Copyright Protected</p>
       </div>
-      
     </footer>
   );
 };

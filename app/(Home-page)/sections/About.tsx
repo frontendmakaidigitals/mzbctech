@@ -11,23 +11,23 @@ const About = () => {
         {/* Text Section */}
         <div className="w-full container pr-14 order-1">
           <h2 className="text-6xl font-heroFont font-[700]">
-            Zaaviyan: The{" "}
+            MZBC Technical Services: The{" "}
             <span className="bg-gradient-to-r font-secondaryFont from-[#68e854] via-[#55b447] to-[#34ac22] bg-clip-text text-transparent">
               Zenith
             </span>{" "}
             of Excellence
           </h2>
           <p className="mt-7  text-xl leading-relaxed">
-            At Zaaviyan Contracting, we are more than just a fit-out company, we
-            are creators of exceptional spaces. With a passion for design and
+            At MZBC Technical Services, we are more than just a fit-out company,
+            we are creators of exceptional spaces. With a passion for design and
             craftsmanship, we specialize in transforming interiors into
             functional, stylish, and inspiring environments. <br />
             <br /> Our expertise spans residential, commercial, and hospitality
             sectors, where we bring innovative solutions tailored to each
             client’s unique vision. Committed to quality and precision, we
             handle every detail from planning to execution, ensuring seamless
-            project delivery. At Zaaviyan, excellence isn’t just a goal - it’s
-            our standard.
+            project delivery. At MZBC Technical Services, excellence isn’t just
+            a goal - it’s our standard.
           </p>
           <button
             onClick={() => ""}

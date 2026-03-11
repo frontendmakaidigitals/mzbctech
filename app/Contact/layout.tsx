@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Contact Zaaviyan Contracting | Fit Out & Contracting Services in UAE",
+  title:
+    "Contact MZBC Technical Services | Fit Out & Contracting Services in UAE",
   description:
-    "Contact Zaaviyan Contracting for expert fit-out, design, and contracting services across the UAE. We’re here to discuss your project needs.",
+    "Contact MZBC Technical Services for expert fit-out, design, and contracting services across the UAE. We’re here to discuss your project needs.",
 };
 
 export default function RootLayout({

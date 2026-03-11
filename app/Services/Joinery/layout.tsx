@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Custom Joinery Services in UAE | Zaaviyan Contracting",
+  title: "Custom Joinery Services in UAE | MZBC Technical Services",
   description:
-    "Zaaviyan Contracting provides high-quality custom joinery solutions for residential, commercial, and hospitality projects across the UAE. Precision-crafted woodwork, tailored to perfection.",
+    "MZBC Technical Services provides high-quality custom joinery solutions for residential, commercial, and hospitality projects across the UAE. Precision-crafted woodwork, tailored to perfection.",
 };
 
 export default function RootLayout({

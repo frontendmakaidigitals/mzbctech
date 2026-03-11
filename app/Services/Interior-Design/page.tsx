@@ -119,11 +119,12 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                At Zaaviyan, we specialize in precision-crafted custom joinery
-                solutions that bring elegance, functionality, and durability to
-                interior spaces. Whether for residential or commercial projects,
-                our bespoke joinery services ensure every detail is meticulously
-                crafted to complement the overall design aesthetic.
+                At MZBC Technical Services, we specialize in precision-crafted
+                custom joinery solutions that bring elegance, functionality, and
+                durability to interior spaces. Whether for residential or
+                commercial projects, our bespoke joinery services ensure every
+                detail is meticulously crafted to complement the overall design
+                aesthetic.
               </p>
               <button
                 onClick={() => setIsOpen(true)}

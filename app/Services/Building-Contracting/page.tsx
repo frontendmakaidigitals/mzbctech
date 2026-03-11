@@ -57,7 +57,7 @@ const Page = () => {
     {
       title: "Fit-Out & Interior Contracting",
       description:
-        "Zaaviyan offers expert fit-out solutions to transform interiors into stunning, functional spaces.",
+        "MZBC Technical Services offers expert fit-out solutions to transform interiors into stunning, functional spaces.",
       solutions: [
         "Corporate & Office Fit-Outs – Modern designs for workspaces.",
         "Retail & Hospitality Fit-Outs – Engaging, luxurious interiors.",
@@ -116,13 +116,13 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                At Zaaviyan, we bring expertise, precision, and innovation to
-                every construction project. As a trusted building contracting
-                company, we specialize in delivering high-quality construction
-                solutions, ensuring structural excellence and long-term
-                durability. From commercial developments to luxury residences,
-                we handle projects of all sizes with professionalism and
-                attention to detail.
+                At MZBC Technical Services, we bring expertise, precision, and
+                innovation to every construction project. As a trusted building
+                contracting company, we specialize in delivering high-quality
+                construction solutions, ensuring structural excellence and
+                long-term durability. From commercial developments to luxury
+                residences, we handle projects of all sizes with professionalism
+                and attention to detail.
               </p>
               <button
                 onClick={() => setIsOpen(true)}

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Home Maintenance Services in UAE | Zaaviyan Contracting",
+  title: "Home Maintenance Services in UAE | MZBC Technical Services",
   description:
-    "Zaaviyan Contracting offers reliable home maintenance services across the UAE, including electrical, plumbing, painting, AC servicing, and more, ensuring your home stays in perfect shape.",
+    "MZBC Technical Services offers reliable home maintenance services across the UAE, including electrical, plumbing, painting, AC servicing, and more, ensuring your home stays in perfect shape.",
 };
 
 export default function RootLayout({

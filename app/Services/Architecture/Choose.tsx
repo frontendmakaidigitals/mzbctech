@@ -23,7 +23,8 @@ const Choose = () => {
     <div className="mt-20">
       <div className="container">
         <h2 className="font-[400] font-heroFont text-center text-5xl">
-          Why Choose <span className="font-[600]">Zaaviyan?</span>
+          Why Choose{" "}
+          <span className="font-[600]">MZBC Technical Services?</span>
         </h2>
         <div className="grid mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 place-items-center">
           {data.map((e, idx) => (

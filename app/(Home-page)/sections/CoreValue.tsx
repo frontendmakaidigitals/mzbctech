@@ -88,8 +88,8 @@ const CoreValue = () => {
       <p className="container text-sm mt-3">
         *Tailored to each client`s unique vision. Committed to quality and
         precision, we handle every detail from planning to execution, ensuring
-        seamless project delivery. At Zaaviyan, excellence isn’t just a goal -
-        it`s our standard.
+        seamless project delivery. At MZBC Technical Services, excellence isn’t
+        just a goal - it`s our standard.
       </p>
     </motion.div>
   );
@@ -113,7 +113,7 @@ const CoreValueContainer = ({
     <div
       className={cn(
         `rounded-xl bg-gradient-to-tr overflow-hidden from-purple-300 to-pruple-50 p-3 w-full h-[270px] flex items-end relative`,
-        elem.griding
+        elem.griding,
       )}
     >
       <img

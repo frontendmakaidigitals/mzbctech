@@ -12,7 +12,7 @@ const Page = () => {
     {
       title: "Residential Interior Design",
       description:
-        "Your home should be a perfect blend of comfort, style, and personal expression. At Zaaviyan, we specialize in creating custom interiors that reflect your lifestyle and enhance your daily living experience.",
+        "Your home should be a perfect blend of comfort, style, and personal expression. At MZBC Technical Services, we specialize in creating custom interiors that reflect your lifestyle and enhance your daily living experience.",
       solutions: [
         "Luxury Villas & Apartments – We design high-end residential spaces with exquisite materials, unique design elements, and a refined aesthetic.",
         "Personalized Home Styling – Every home is different, and our approach ensures that your interiors reflect your personal taste, whether modern, classic, contemporary, or minimalist.",
@@ -26,7 +26,7 @@ const Page = () => {
     {
       title: "Commercial Interior Design",
       description:
-        "A well-designed commercial space enhances brand identity, improves efficiency, and creates a lasting impression. Zaaviyan specializes in commercial interiors that are both practical and visually appealing.",
+        "A well-designed commercial space enhances brand identity, improves efficiency, and creates a lasting impression. MZBC Technical Services specializes in commercial interiors that are both practical and visually appealing.",
       solutions: [
         "Corporate Office Interiors – We create workspaces that boost productivity and reflect corporate identity through ergonomic furniture, optimized layouts, and brand-inspired aesthetics.",
         "Retail & Showroom Design – Designing interactive and visually engaging spaces that attract customers, highlight products, and improve sales.",
@@ -132,9 +132,9 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                At Zaaviyan, we create timeless, functional, and luxurious
-                interiors that reflect individuality and elegance. Our expertise
-                in interior design spans residential, commercial, and
+                At MZBC Technical Services, we create timeless, functional, and
+                luxurious interiors that reflect individuality and elegance. Our
+                expertise in interior design spans residential, commercial, and
                 hospitality spaces, ensuring each project is meticulously
                 planned and executed to perfection.
               </p>

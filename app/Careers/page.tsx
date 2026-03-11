@@ -16,13 +16,13 @@ const Page = () => {
     <div className="w-full h-full">
       <div className="container max-w-4xl pt-32 lg:pt-40 pb-20">
         <h1 className="text-center text-4xl font-bold font-Primary">
-          Careers at Zaaviyan
+          Careers at MZBC Technical Services
         </h1>
         <p className="text-center mt-5">
-          Join the team at Zaaviyan, where innovation, expertise, and passion
-          drive everything we do. We are always on the lookout for talented
-          individuals who share our commitment to excellence and want to be part
-          of transforming spaces across Dubai and beyond.
+          Join the team at MZBC Technical Services, where innovation, expertise,
+          and passion drive everything we do. We are always on the lookout for
+          talented individuals who share our commitment to excellence and want
+          to be part of transforming spaces across Dubai and beyond.
         </p>
         <p className="text-center mt-8">
           If you want to join our team, fill out the form below
@@ -305,12 +305,12 @@ const CareerForm = () => {
     if (!checkbox) tempErrors.checked = true;
     setErrors(tempErrors);
     const hasErrors = Object.values(tempErrors).some(
-      (error) => error !== "" && error !== false
+      (error) => error !== "" && error !== false,
     );
     return !hasErrors;
   };
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
     setErrors({ ...errors, [e.target.name]: "" });
@@ -338,8 +338,7 @@ const CareerForm = () => {
     try {
       const response = await fetch("/api/careers", {
         method: "POST",
-        body: formDataToSend, 
-        
+        body: formDataToSend,
       });
 
       if (response.ok) {
@@ -530,7 +529,7 @@ const CareerForm = () => {
         type="submit"
         className={cn(
           `border border-slate-400 mt-10 px-4 py-2 rounded-md flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed`,
-          status === "ok" && "bg-[#25D366] text-green-950"
+          status === "ok" && "bg-[#25D366] text-green-950",
         )}
         disabled={status === "Sending..." || status === "ok"}
         onClick={handleSubmit}

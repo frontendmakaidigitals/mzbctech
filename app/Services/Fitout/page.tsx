@@ -141,10 +141,10 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                At Zaaviyan, we offer comprehensive fit-out and refurbishment
-                solutions designed to meet the diverse needs of our clients. Our
-                services are focused on delivering innovative, high-quality
-                results with a commitment to precision and customer
+                At MZBC Technical Services, we offer comprehensive fit-out and
+                refurbishment solutions designed to meet the diverse needs of
+                our clients. Our services are focused on delivering innovative,
+                high-quality results with a commitment to precision and customer
                 satisfaction.
               </p>
               <button

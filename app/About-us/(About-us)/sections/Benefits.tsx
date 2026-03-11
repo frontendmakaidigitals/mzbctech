@@ -4,17 +4,17 @@ const Benefits = () => {
   const cards = [
     {
       title: "Eco-Friendly Practices",
-      desc: "At Zaaviyan, sustainability is not just a trend — it’s a commitment. We integrate eco-conscious practices into every phase of our projects, from material selection to energy-efficient systems. Our goal is to minimize environmental impact while delivering modern, functional spaces that align with global green building standards. By prioritizing sustainable solutions, we not only protect the planet but also create healthier, more efficient environments for our clients.",
+      desc: "At MZBC Technical Services, sustainability is not just a trend — it’s a commitment. We integrate eco-conscious practices into every phase of our projects, from material selection to energy-efficient systems. Our goal is to minimize environmental impact while delivering modern, functional spaces that align with global green building standards. By prioritizing sustainable solutions, we not only protect the planet but also create healthier, more efficient environments for our clients.",
       icon: "Media/benefits/leaves.png",
     },
     {
       title: "Bespoke Design",
-      desc: "Zaaviyan offers fully customized fit-out services tailored to the unique needs of each client. Our turnkey solutions cover everything from concept design to final execution, ensuring a seamless and hassle-free experience. With a focus on precision, quality craftsmanship, and design excellence, we bring your vision to life while maintaining the highest standards of functionality and aesthetics.",
+      desc: "MZBC Technical Services offers fully customized fit-out services tailored to the unique needs of each client. Our turnkey solutions cover everything from concept design to final execution, ensuring a seamless and hassle-free experience. With a focus on precision, quality craftsmanship, and design excellence, we bring your vision to life while maintaining the highest standards of functionality and aesthetics.",
       icon: "Media/benefits/sewing.png",
     },
     {
       title: "Innovation and Smart Technology",
-      desc: "Embracing the future of design and construction, Zaaviyan integrates cutting-edge technologies into our projects to enhance performance, comfort, and convenience. From smart lighting and automation systems to innovative construction techniques, we leverage technology to deliver intelligent, future-ready spaces that align with modern lifestyles and business needs.",
+      desc: "Embracing the future of design and construction, MZBC Technical Services integrates cutting-edge technologies into our projects to enhance performance, comfort, and convenience. From smart lighting and automation systems to innovative construction techniques, we leverage technology to deliver intelligent, future-ready spaces that align with modern lifestyles and business needs.",
       icon: "Media/benefits/cpu.png",
     },
   ];

@@ -117,11 +117,12 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                Zaaviyan is a leading interior fit-out and furniture crafting
-                company specializing in bespoke designs that transform
-                residential, commercial, and hospitality spaces. With an expert
-                team of artisans and designers, we deliver high-quality
-                craftsmanship that blends luxury, innovation, and functionality.
+                MZBC Technical Services is a leading interior fit-out and
+                furniture crafting company specializing in bespoke designs that
+                transform residential, commercial, and hospitality spaces. With
+                an expert team of artisans and designers, we deliver
+                high-quality craftsmanship that blends luxury, innovation, and
+                functionality.
               </p>
               <button
                 onClick={() => setIsOpen(true)}

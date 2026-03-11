@@ -112,13 +112,13 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                At Zaaviyan, we craft architecture that reflects your vision,
-                blending functionality with aesthetics. Specializing in
-                contracting and fit-outs, we create inspiring, productive
-                spaces. Our collaborative approach ensures every design is
-                visually striking, practical, and built to last. With a focus on
-                innovation and sustainability, we transform ideas into timeless
-                architectural masterpieces.
+                At MZBC Technical Services, we craft architecture that reflects
+                your vision, blending functionality with aesthetics.
+                Specializing in contracting and fit-outs, we create inspiring,
+                productive spaces. Our collaborative approach ensures every
+                design is visually striking, practical, and built to last. With
+                a focus on innovation and sustainability, we transform ideas
+                into timeless architectural masterpieces.
               </p>
               <button
                 onClick={() => setIsOpen(true)}

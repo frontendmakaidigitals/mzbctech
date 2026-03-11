@@ -8,13 +8,13 @@ import { GridPattern } from "@/app/App_Chunks/Components/GridPattern";
 const HeroSection = () => {
   const slider = [
     {
-      img: "https://raw.githubusercontent.com/frontendmakaidigitals/Zaaviyan/refs/heads/main/public/heroSection/herosection1.jpg",
+      img: "https://raw.githubusercontent.com/frontendmakaidigitals/MZBC Technical Services/refs/heads/main/public/heroSection/herosection1.jpg",
     },
     {
-      img: "https://raw.githubusercontent.com/frontendmakaidigitals/Zaaviyan/refs/heads/main/public/heroSection/herosection2.jpg",
+      img: "https://raw.githubusercontent.com/frontendmakaidigitals/MZBC Technical Services/refs/heads/main/public/heroSection/herosection2.jpg",
     },
     {
-      img: "https://raw.githubusercontent.com/frontendmakaidigitals/Zaaviyan/refs/heads/main/public/heroSection/herosection3.jpg",
+      img: "https://raw.githubusercontent.com/frontendmakaidigitals/MZBC Technical Services/refs/heads/main/public/heroSection/herosection3.jpg",
     },
     { img: "heroSection/heroSection4.jpg" },
   ];
@@ -76,7 +76,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-white/80 mt-4 text-md md:text-lg max-w-xl">
-              At Zaaviyan Contracting, we craft bespoke interiors that blend
+              At MZBC Technical Services, we craft bespoke interiors that blend
               aesthetics with functionality. As a leading fit-out company, we
               transform residential, commercial, and hospitality spaces into
               inspiring environments.

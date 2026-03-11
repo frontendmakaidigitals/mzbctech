@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Architectural Design Services in UAE | Zaaviyan Contracting",
+  title: "Architectural Design Services in UAE | MZBC Technical Services",
   description:
-    "Zaaviyan Contracting offers innovative architectural design solutions across the UAE. From concept development to detailed drawings, we design spaces that inspire and perform.",
+    "MZBC Technical Services offers innovative architectural design solutions across the UAE. From concept development to detailed drawings, we design spaces that inspire and perform.",
 };
 
 export default function RootLayout({

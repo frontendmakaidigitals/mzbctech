@@ -138,13 +138,13 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                At Zaaviyan, we specialize in providing end-to-end Retail
-                Turnkey Solutions, ensuring a stress-free experience for
-                businesses looking to establish or revamp their retail spaces.
-                With our expertise in interior design and project management, we
-                transform retail environments into dynamic, customer-centric
-                spaces that enhance brand presence and elevate the shopping
-                experience.
+                At MZBC Technical Services, we specialize in providing
+                end-to-end Retail Turnkey Solutions, ensuring a stress-free
+                experience for businesses looking to establish or revamp their
+                retail spaces. With our expertise in interior design and project
+                management, we transform retail environments into dynamic,
+                customer-centric spaces that enhance brand presence and elevate
+                the shopping experience.
               </p>
               <button
                 onClick={() => setIsOpen(true)}

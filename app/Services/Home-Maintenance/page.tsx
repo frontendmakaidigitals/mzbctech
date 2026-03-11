@@ -139,9 +139,9 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                At Zaaviyan, we understand that a well-maintained home is
-                essential for comfort, safety, and longevity. Our expert home
-                maintenance services cover everything from electrical and
+                At MZBC Technical Services, we understand that a well-maintained
+                home is essential for comfort, safety, and longevity. Our expert
+                home maintenance services cover everything from electrical and
                 plumbing solutions to carpentry, painting, and general repairs.
                 Whether you need routine upkeep, emergency fixes, or a complete
                 home refresh, our skilled team is dedicated to delivering

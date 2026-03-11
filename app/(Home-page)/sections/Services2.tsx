@@ -57,7 +57,7 @@ const Services = () => {
     },
     {
       name: "Building Contracting",
-      desc: "Zaaviyan offers top-tier building contracting services in the UAE, delivering high-quality construction with precision and innovation. From concept to completion, we ensure excellence in every project, tailored to client needs.",
+      desc: "MZBC Technical Services offers top-tier building contracting services in the UAE, delivering high-quality construction with precision and innovation. From concept to completion, we ensure excellence in every project, tailored to client needs.",
       img: "Media/Services_Images/building.jpg",
     },
   ];
@@ -78,13 +78,13 @@ const Services = () => {
                   `grid place-items-center gap-2`,
                   idx % 2 === 0
                     ? "grid-cols-1 lg:grid-cols-[0.7fr_1.3fr]"
-                    : "grid-cols-1 lg:grid-cols-[1.3fr_.7fr]"
+                    : "grid-cols-1 lg:grid-cols-[1.3fr_.7fr]",
                 )}
               >
                 <div
                   className={cn(
                     `w-full bg-[#fffafa]  p-5 flex flex-col justify-center h-full`,
-                    idx % 2 !== 0 ? "order-2 lg:order-2" : "order-2 lg:order-1"
+                    idx % 2 !== 0 ? "order-2 lg:order-2" : "order-2 lg:order-1",
                   )}
                 >
                   <h3 className="text-4xl font-heroFont  text-center">
@@ -95,7 +95,7 @@ const Services = () => {
                 <motion.div
                   className={cn(
                     `w-full h-[450px]  lg:h-[470px] relative  overflow-hidden flex items-center justify-center`,
-                    idx % 2 !== 0 ? "order-1 lg:order-1" : "order-1 lg:order-2"
+                    idx % 2 !== 0 ? "order-1 lg:order-1" : "order-1 lg:order-2",
                   )}
                 >
                   <ParallaxImage src={elem.img} idx={idx} />
@@ -125,11 +125,11 @@ const ParallaxImage = ({ src, idx }: { src: string; idx: number }) => {
       ref={imgRef}
       className={cn(
         "relative overflow-hidden w-full h-full", // Fixed height to keep things aligned
-        idx % 2 === 0 ? "order-2" : "order-1"
+        idx % 2 === 0 ? "order-2" : "order-1",
       )}
     >
       <motion.img
-        style={{ y, scale: 1.05, willChange: "transform"  }}
+        style={{ y, scale: 1.05, willChange: "transform" }}
         className="w-full h-full object-cover transition-transform duration-300 ease-out"
         src={src}
         loading="lazy"

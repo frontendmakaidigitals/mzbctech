@@ -119,13 +119,14 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                At Zaaviyan, we specialize in transforming retail spaces into
-                visually captivating and strategically designed environments.
-                Our visual merchandising and shop display solutions ensure that
-                your store not only looks aesthetically appealing but also
-                maximizes customer engagement and boosts sales. From concept
-                development to execution, we create immersive shopping
-                experiences tailored to your brand’s identity.
+                At MZBC Technical Services, we specialize in transforming retail
+                spaces into visually captivating and strategically designed
+                environments. Our visual merchandising and shop display
+                solutions ensure that your store not only looks aesthetically
+                appealing but also maximizes customer engagement and boosts
+                sales. From concept development to execution, we create
+                immersive shopping experiences tailored to your brand’s
+                identity.
               </p>
               <button
                 onClick={() => setIsOpen(true)}

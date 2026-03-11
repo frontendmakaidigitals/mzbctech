@@ -132,11 +132,11 @@ const Page = () => {
             </h2>
             <div>
               <p className="md:text-[.8rem] xl:text-lg mt-4 w-full md:max-w-xs lg:max-w-sm xl:max-w-md md:pr-8 lg:pr-10">
-                Zaaviyan Carpentry specializes in bespoke wooden solutions,
-                seamlessly blending functionality with elegance. From custom
-                furniture to intricate joinery, our skilled craftsmen ensure
-                precision, durability, and timeless design to bring your vision
-                to life.
+                MZBC Technical Services Carpentry specializes in bespoke wooden
+                solutions, seamlessly blending functionality with elegance. From
+                custom furniture to intricate joinery, our skilled craftsmen
+                ensure precision, durability, and timeless design to bring your
+                vision to life.
               </p>
               <button
                 onClick={() => setIsOpen(true)}
