@@ -96,7 +96,7 @@ const Nav = () => {
     <motion.div
       className={cn(
         "w-full fixed left-0 z-50",
-        lastScrollY !== 0 && !isOpen && "backdrop-blur-lg"
+         !isOpen && "backdrop-blur-md"
       )}
       initial={{ top: 0 }}
       animate={{
@@ -104,9 +104,9 @@ const Nav = () => {
         backgroundColor:
           lastScrollY === 0
             ? isOnMobile
-              ? "hsl(1, 5%, 85%, 0.8)" // Mobile: Slightly opaque at the top
+              ? "hsl(1, 5%, 85%, .9)" // Mobile: Slightly opaque at the top
               : "hsl(1, 5%, 85%, .9)" // Desktop: Fully transparent at the top
-            : "hsl(1, 5%, 85%, 0.4)",
+            : "hsl(1, 5%, 85%, .9)",
       }}
       transition={{
         type: "spring",
@@ -117,10 +117,10 @@ const Nav = () => {
     >
       <div className="container  relative py-3 flex  justify-between items-center">
         <Logo
-          className={cn(`transition-colors duration-200  text-slate-950`)}
+          className={cn(`transition-colors w-28 duration-200  text-slate-950`)}
         />
 
-        <div className=" hidden lg:flex items-center bg-gradient-to-b gap-2 border from-white to-slate-100 p-[.4rem] rounded-xl">
+        <div className=" hidden lg:flex items-center font-[500] bg-gradient-to-b gap-2 border from-white to-slate-100 p-[.4rem] rounded-xl">
           {menus.map((menu, idx) =>
             menu.serviceList ? (
               <div
@@ -132,9 +132,9 @@ const Nav = () => {
                   onClick={() => setIsMenuShowing(!isMenuShowing)}
                   onMouseEnter={() => setIsMenuShowing(true)}
                   className={cn(
-                    `px-4 py-[.5rem] rounded-xl hover:bg-orange-100`,
+                    `px-4 py-[.5rem] rounded-xl hover:bg-blue-100`,
                     path.includes("Services") &&
-                      `bg-orange-200 text-orange-900 hover:bg-orange-200`
+                      `bg-blue-200 text-[#153781] hover:bg-blue-200/8-`
                   )}
                 >
                   <span className="flex items-center gap-2">
@@ -166,10 +166,10 @@ const Nav = () => {
                             }}
                             key={index}
                             className={cn(
-                              `hover:bg-orange-50 px-5 py-3`,
+                              `hover:bg-blue-50 px-5 py-3`,
                               index !== menu.serviceList.length - 1 &&
                                 "border-b border-slate-400",
-                              path.includes(service.name) && "bg-orange-50"
+                              path.includes(service.name) && "bg-blue-50"
                             )}
                           >
                             <Link
@@ -191,9 +191,9 @@ const Nav = () => {
                 key={idx}
                 href={menu.route}
                 className={cn(
-                  `px-4 py-[.5rem] rounded-xl hover:bg-orange-100 hover:text-orange-900`,
+                  `px-4 py-[.5rem] rounded-xl hover:bg-blue-200 hover:text-[#153781]`,
                   path === menu.route &&
-                    `bg-orange-200 text-orange-900 hover:bg-orange-200`
+                    `bg-blue-200 text-[#153781] hover:bg-blue-300/80`
                 )}
               >
                 <div>{menu.name}</div>

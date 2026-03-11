@@ -63,7 +63,7 @@ const Services = () => {
     <motion.div className="w-full mt-20 bg-[#EFEBE9]">
       <div className="container py-20">
         <h1 className="text-6xl font-[500] text-black font-Primary text-center">
-          Services <span className="text-slate-600">we provide</span>
+          Services <span className="text-[#55b447]">we provide</span>
         </h1>
 
         <div ref={viewContainer} className="grid grid-cols-1 w-full mt-20">

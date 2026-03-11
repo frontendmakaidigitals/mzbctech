@@ -97,13 +97,13 @@ const Form = () => {
   return (
     <div className="w-full mt-40">
       <div className="lg:container grid grid-cols-1 lg:grid-cols-[.7fr_1.3fr]">
-        <div className="w-full hidden lg:block bg-slate-50 h-[660px] overflow-hidden rounded-l-xl">
+        <div className="w-full hidden lg:block bg-[#b4c0d3] h-full overflow-hidden rounded-l-xl">
           <img
             src={"/Media/contact form.jpg"}
             className="w-full object-cover h-full"
           />
         </div>
-        <div className="p-7 rounded-r-xl bg-slate-100">
+        <div className="p-7 rounded-r-xl bg-[#ccd3de]">
           <p className="text-6xl lg:text-4xl font-[600] font-Primary">
             Get your quote
           </p>
@@ -218,7 +218,7 @@ const Form = () => {
             <button
               type="submit"
               className={cn(
-                `border border-slate-400 mt-10 px-4 py-2 rounded-md flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed`,
+                `border border-slate-400 hover:bg-[#58B54E] mt-10 px-4 py-2 rounded-md flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed`,
                 status === "ok" && "bg-[#25D366] text-green-950"
               )}
               disabled={status === "Sending..." || status === "ok"}

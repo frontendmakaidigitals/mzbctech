@@ -14,7 +14,7 @@ const Page = () => {
   return (
     <div className="">
       <div className="  ">
-        <div className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#66806a] via-[#b4c6a6] to-[#ffc286] pt-24 lg:pt-40 ">
+        <div className="bg-gradient-to-r from-[#0e317f35]  to-[#54b44a45] pt-24 lg:pt-40 ">
           <div className="container grid h-[370px] lg:h-[250px] grid-cols-1 gap-10 lg:grid-cols-[.7fr_1.3fr]">
             <div className="flex flex-col h-full justify-center lg:justify-between gap-6 pb-5">
               {" "}
@@ -36,7 +36,7 @@ const Page = () => {
             </div>
 
             <div className="relative ">
-              <div className="w-full flex items-center gap-4 px-5 rounded-t-md py-5 bg-slate-200 absolute bottom-0 left-0">
+              <div className="w-full flex items-center gap-4 px-5 rounded-t-md py-5 bg-[#7e91ba30] absolute bottom-0 left-0">
                 <div className="w-20">
                   <div className="aspect-square overflow-hidden">
                     <img
@@ -55,7 +55,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="bg-slate-100 pb-32">
+        <div className="bg-[#7e91ba30] pb-32">
           <div className="container grid grid-cols-1  gap-10 lg:grid-cols-[.7fr_1.3fr]">
             <div className="mt-12 order-1 lg:order-2">
               <h2 className="text-4xl mt-4">What will be next step?</h2>
@@ -65,8 +65,8 @@ const Page = () => {
                 <>
                   <div className="flex items-start gap-2 z-10 relative after:h-full after:w-[1px] after:absolute after:contents-[' '] after:-z-10 after:top-5 after:left-[.6rem] after:bg-slate-900">
                     <div className="mt-1">
-                      <div className="size-5 bg-blue-300 rounded-full flex justify-center items-center">
-                        <div className="size-3 bg-yellow-400 rounded-full"></div>
+                      <div className="size-5 bg-green-300 rounded-full flex justify-center items-center">
+                        <div className="size-3 bg-[#54b44a] rounded-full"></div>
                       </div>
                     </div>
                     <div>
@@ -83,8 +83,8 @@ const Page = () => {
                 <>
                   <div className="flex mt-4 items-start gap-2 z-10 relative after:h-full after:w-[1px] after:absolute after:contents-[' '] after:-z-10 after:top-5 after:left-[.6rem] after:bg-slate-900">
                     <div className="mt-1">
-                      <div className="size-5 bg-blue-300 rounded-full flex justify-center items-center">
-                        <div className="size-3 bg-yellow-400 rounded-full"></div>
+                      <div className="size-5 bg-green-300 rounded-full flex justify-center items-center">
+                        <div className="size-3 bg-[#54b44a] rounded-full"></div>
                       </div>
                     </div>
                     <div>
@@ -101,8 +101,8 @@ const Page = () => {
                 <>
                   <div className="flex mt-4 items-start gap-2  ">
                     <div className="mt-1">
-                      <div className="size-5 bg-blue-300 rounded-full flex justify-center items-center">
-                        <div className="size-3 bg-yellow-400 rounded-full"></div>
+                      <div className="size-5 bg-green-300 rounded-full flex justify-center items-center">
+                        <div className="size-3 bg-[#54b44a] rounded-full"></div>
                       </div>
                     </div>
                     <div>

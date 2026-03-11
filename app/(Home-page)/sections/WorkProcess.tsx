@@ -50,7 +50,7 @@ const WorkProcess = () => {
     <div className="my-12">
       <div className="container">
         <h1 className="text-6xl font-meidum text-black font-heroFont text-center">
-          Our <span className="text-slate-500">Work Process</span>
+          Our <span className="text-[#58B54E]">Work Process</span>
         </h1>
         <div className="grid grid-cols-1 gap-y-20 mt-20">
           {process.map((elem, idx) => (
@@ -91,11 +91,11 @@ const Process = ({ elem, index }: { elem: ProcessProps; index: number }) => {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.3 }}
         className={cn(
-          `w-full h-full flex flex-col justify-between relative border-l-2 border-[#ff7e3d] px-4`,
+          `w-full h-full flex flex-col justify-between relative border-l-2 border-[#3e8b35] px-4`,
           elem.order
         )}
       >
-        <p className="text-6xl font-[500] text-[#FFB38E]">0{index + 1}</p>
+        <p className="text-6xl font-[500] text-[#58B54E]">0{index + 1}</p>
         <div>
           <h2 className="text-xl xl:text-3xl font-Primary font-[600]">
             {elem.processName}
@@ -110,7 +110,7 @@ const Process = ({ elem, index }: { elem: ProcessProps; index: number }) => {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 1, ease:[0, 0, .2, 1] }}
-        className="relative bg-slate-200 overflow-hidden rounded-[2rem] aspect-square w-full"
+        className="relative bg-[#b4c0d3] overflow-hidden rounded-[2rem] aspect-square w-full"
       >
         <motion.div
           initial={{ rotate: 0, scale: 0.725 }}

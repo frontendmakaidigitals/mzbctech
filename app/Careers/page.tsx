@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 const Page = () => {
   return (
-    <div className="bg-gradient-to-b from-[#EDF0F5] to-[#ECF0F7] w-full h-full">
+    <div className="w-full h-full">
       <div className="container max-w-4xl pt-32 lg:pt-40 pb-20">
         <h1 className="text-center text-4xl font-bold font-Primary">
           Careers at Zaaviyan
@@ -28,7 +28,7 @@ const Page = () => {
           If you want to join our team, fill out the form below
         </p>
 
-        <div className="mt-10 bg-white/40 backdrop-filter backdrop-blur-xl px-3 lg:px-10 py-16 rounded-md">
+        <div className="mt-10 bg-[#58B54E15] border border-lime-200 backdrop-filter backdrop-blur-xl px-3 lg:px-10 py-16 rounded-md">
           <p className="mb-5 text-2xl font-medium">About You</p>
           <CareerForm />
         </div>
@@ -364,7 +364,7 @@ const CareerForm = () => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-7">
+      <div className="grid  grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-7">
         <div>
           <label className="block">First Name</label>
           <Input

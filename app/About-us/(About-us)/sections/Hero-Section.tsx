@@ -49,9 +49,9 @@ const HeroSection = () => {
       />
 
       <div className="absolute z-[9] flex justify-end xl:justify-center items-center  bottom-0 left-0 w-full h-[30px]">
-        <div className="w-0 h-0 border-l-transparent border-l-[30px] border-b-[30px] border-b-white"></div>
-        <div className="w-[40vw] bg-white h-full"></div>
-        <div className="w-0 h-0 border-r-[30px] hidden xl:block border-l-transparent  border-r-transparent border-b-[30px] border-b-white"></div>
+        <div className="w-0 h-0 border-l-transparent border-l-[30px] border-b-[30px] border-b-[#f4f7f0]"></div>
+        <div className="w-[40vw] bg-[#f4f7f0] h-full"></div>
+        <div className="w-0 h-0 border-r-[30px] hidden xl:block border-l-transparent  border-r-transparent border-b-[30px] border-b-[#f4f7f0]"></div>
       </div>
     </div>
   );

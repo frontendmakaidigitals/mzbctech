@@ -26,7 +26,7 @@ const Choose = () => {
           {data.map((e, idx) => (
             <div
               key={idx}
-              className="w-full transition-all duration-300 bg-orange-100 hover:bg-orange-200 flex  items-center gap-5 rounded-lg px-5 py-4"
+              className="w-full transition-all duration-300 bg-[#b1e3ab] hover:bg-[#53b646] flex  items-center gap-5 rounded-lg px-5 py-4"
             >
               <div className="size-10 ">
                 <img src={e.icon} className="w-full h-full object-contain" />

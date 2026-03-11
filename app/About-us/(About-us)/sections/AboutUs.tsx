@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { Avocado } from "@phosphor-icons/react";
 const AboutUs = () => {
   return (
     <div className="my-20 bg-slate-400/10">
@@ -12,7 +11,7 @@ const AboutUs = () => {
           />
         </div>
         <div>
-          <h3 className="text-4xl font-Primary font-[600] text-center lg:text-start">
+          <h3 className="text-4xl lg:text-5xl font-Primary font-[600] text-center lg:text-start">
             Who We Are
           </h3>
 
@@ -22,11 +21,11 @@ const AboutUs = () => {
             commercial, and hospitality sectors. With a strong foundation built
             on innovation, creativity, and a commitment to excellence, we have
             earned a reputation for transforming spaces into functional,
-            inspiring environments. At Zaaviyan Contracting, we believe that the spaces we work on
-            should do more than look good—they should enhance the lives of those
-            who use them. That`s why our approach is rooted in a deep
-            understanding of design, craftsmanship, and the unique requirements
-            of each client.
+            inspiring environments. At Zaaviyan Contracting, we believe that the
+            spaces we work on should do more than look good—they should enhance
+            the lives of those who use them. That`s why our approach is rooted
+            in a deep understanding of design, craftsmanship, and the unique
+            requirements of each client.
           </p>
 
           <p className="mt-3 text-md lg:text-lg text-center lg:text-start">

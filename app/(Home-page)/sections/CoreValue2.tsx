@@ -90,9 +90,17 @@ const CoreValue = () => {
               key={idx}
               onClick={() => setIndex(idx)}
               className={cn(
-                `size-28 md:size-36 p-4 flex justify-center items-center rounded-full bg-white/40 border border-gray-400/40 backdrop-filter backdrop-blur-lg`,
-                `hover:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#fde68a]  to-[#fab236] transition-all duration-200`,
-                `${index === idx ? "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#fde68a]  before:absolute before:left-1/2 before:top-full before:w-[1px] lg:before:h-14 before:bg-slate-50 to-[#fab236]" : ""}`
+                `size-28 md:size-36 p-4 flex justify-center items-center rounded-full 
+  bg-white/40 border border-gray-400/40 backdrop-filter backdrop-blur-lg`,
+
+                `hover:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] 
+  from-[#3B5DAA] to-[#153781] transition-all duration-200`,
+
+                `${
+                  index === idx
+                    ? "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] text-white from-[#3B5DAA] before:absolute before:left-1/2 before:top-full before:w-[1px] lg:before:h-14 before:bg-slate-50 to-[#153781]"
+                    : ""
+                }`,
               )}
             >
               <p className="text-center font-Primary font-[700] text-sm">

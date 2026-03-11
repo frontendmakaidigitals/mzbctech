@@ -74,7 +74,7 @@ const Industries = () => {
     <div className="bg-[#EFEBE9] py-20 grid grid-cols-1 items-center">
       <div className="container">
         <h1 className="text-6xl font-meidum text-black font-heroFont text-center">
-          Industries <span className="text-slate-500">we serve</span>
+          Industries <span className="text-[#55b447]">We Serve</span>
         </h1>
 
         <motion.div
