@@ -8,13 +8,13 @@ import { GridPattern } from "@/app/App_Chunks/Components/GridPattern";
 const HeroSection = () => {
   const slider = [
     {
-      img: "https://raw.githubusercontent.com/frontendmakaidigitals/MZBC Technical Services/refs/heads/main/public/heroSection/herosection1.jpg",
+      img: "https://raw.githubusercontent.com/frontendmakaidigitals/Zaaviyan/refs/heads/main/public/heroSection/herosection1.jpg",
     },
     {
-      img: "https://raw.githubusercontent.com/frontendmakaidigitals/MZBC Technical Services/refs/heads/main/public/heroSection/herosection2.jpg",
+      img: "https://raw.githubusercontent.com/frontendmakaidigitals/Zaaviyan/refs/heads/main/public/heroSection/herosection2.jpg",
     },
     {
-      img: "https://raw.githubusercontent.com/frontendmakaidigitals/MZBC Technical Services/refs/heads/main/public/heroSection/herosection3.jpg",
+      img: "https://raw.githubusercontent.com/frontendmakaidigitals/Zaaviyan/refs/heads/main/public/heroSection/herosection3.jpg",
     },
     { img: "heroSection/heroSection4.jpg" },
   ];
