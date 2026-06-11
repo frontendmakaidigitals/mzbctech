@@ -1,4 +1,4 @@
-name: Deploy Next.js App - Production
+name: Deploy MZBCTECH
 on:
   push:
     branches:
